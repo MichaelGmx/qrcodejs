@@ -162,10 +162,10 @@ var QRCode;
 		
 		if (/android/i.test(sAgent)) { // android
 			android = true;
-			var aMat = sAgent.toString().match(/android ([0-9]\.[0-9])/i);
+			var aMat = sAgent.toString().match(/(android \d+\.\d+)|(android \d+)/i);
 			
-			if (aMat && aMat[1]) {
-				android = parseFloat(aMat[1]);
+			if (aMat && aMat[0]) {
+				android = parseFloat(aMat[0].split(' ')[1]);
 			}
 		}
 		
