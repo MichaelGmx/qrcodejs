@@ -1,3 +1,5 @@
+这里是修改后的版本，原地址[请点击这里](https://github.com/davidshimjs/qrcodejs)
+
 # QRCode.js
 QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
 QRCode.js has no dependencies.
