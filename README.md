@@ -21,6 +21,9 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: "http://jindo.dev.naver.com/collie",
 	width: 128,
 	height: 128,
+	imgWidth: 32,
+	imgHeight: 32,
+	logo: 'http://xxx',
 	colorDark : "#000000",
 	colorLight : "#ffffff",
 	correctLevel : QRCode.CorrectLevel.H
